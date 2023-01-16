@@ -1,0 +1,254 @@
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: beige;
+  }
+
+
+
+
+  nav{
+    background-color: black;
+    padding: 5px;
+   } 
+ 
+ 
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   
+   }
+   
+ 
+ 
+ 
+ 
+  i {
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+    }  
+ 
+ 
+     
+ 
+ 
+  li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+ 
+   li a:hover{ 
+ 
+     color: brown;
+ 
+ 
+   }
+   
+  
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.block1{
+
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-right: 30px;
+
+
+ } 
+
+
+
+#gmt { 
+
+   width: 300px; ;
+   height: 400px;
+   padding-left: 50px;
+   padding-top: 100px;
+   
+
+  }
+
+#gmttext   { 
+
+    width: 300px; ;
+    height: 10px;
+    padding-left: 110px;
+  
+ 
+   }
+
+#price { 
+
+    width: 300px; ;
+    height: 10px;
+    padding-left: 135px;
+    
+   
+    
+  }
+  
+
+
+  #but1 { 
+   
+   margin-left: 117px;
+   background-color: black;
+   color: lightgreen;
+   font-size: 15px;
+   width: 100px;
+   height: 45px;
+   
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+    
+  }
+  
+
+
+  .block2{
+
+    display: inline-block
+   
+   
+   
+    } 
+
+  #day { 
+
+    width: 300px; ;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 100px;
+    
+ 
+   }
+ 
+ #daytext   { 
+ 
+     width: 300px; ;
+     height: 10px;
+     padding-left: 120px;
+   
+  
+    }
+ 
+ #price2 { 
+ 
+     width: 300px; ;
+     height: 10px;
+     padding-left: 160px;
+     
+    
+     
+   }
+   
+ 
+ 
+   #but2 { 
+    
+    margin-left: 140px;
+    background-color: black;
+    color: lightgreen;
+    font-size: 15px;
+    width: 100px;
+    height: 45px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+     
+   }
+    
+
+
+
+
+
+
+.block3{
+
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-right: 30px;
+
+
+ } 
+
+
+
+#oyster { 
+
+   width: 300px; ;
+   height: 400px;
+   padding-left: 50px;
+   padding-top: 100px;
+   
+
+  }
+
+#oystertext   { 
+
+    width: 300px; ;
+    height: 10px;
+    padding-left: 110px;
+  
+ 
+   }
+
+#price3 { 
+
+    width: 300px; ;
+    height: 10px;
+    padding-left: 135px;
+    
+   
+    
+  }
+  
+
+
+  #but3 { 
+   
+   margin-left: 117px;
+   background-color: black;
+   color: lightgreen;
+   font-size: 15px;
+   width: 100px;
+   height: 45px;
+   
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+    
+  }
+  

@@ -1,0 +1,49 @@
+
+nav{
+   background-color: black;
+   padding: 5px;
+  } 
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+
+
+
+
+ i {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   }  
+
+
+    
+
+
+ li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{ 
+
+    color: brown;
+
+
+  }
+
