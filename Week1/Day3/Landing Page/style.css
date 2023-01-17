@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
 body{
  
 background-image: url(monde1.jpg);
@@ -42,4 +42,28 @@ h1 {
     padding-bottom: 100px;
     color: black;
 
+}
+
+
+.cube  {
+    border: darkblue;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 40px;
+   margin-left: 60px;
+}
+
+.cube div  {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Aleo', serif;
+  opacity: calc(O,40);
+  color: grey;
+}
+
+
+.text2  {
+    margin-top: 150px;
 }
