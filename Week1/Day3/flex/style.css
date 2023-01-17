@@ -1,0 +1,43 @@
+ * {
+    box-sizing: border-box;
+  } 
+
+
+
+
+
+.bottom  {
+   border: 2px solid black;
+   display: grid;
+   height: 1000px;
+   gap: 20px;
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 5fr;
+   padding: 40px;
+}
+
+.bottom div {
+
+    border: 2px solid black;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+ 
+    
+
+}
+
+
+
+
+
+#barre{
+
+    border: 2px solid black;
+    
+
+    
+
+}
+
