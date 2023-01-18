@@ -67,3 +67,26 @@ h1 {
 .text2  {
     margin-top: 150px;
 }
+
+
+.inter {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tina {
+
+  background-color: lightcoral !important;
+  text-align: center !important;
+  font-size: 10px !important;
+  color: white !important;  
+}
+
+
+#rigole{
+
+ width: 70px;
+ border-radius: 42%;
+}

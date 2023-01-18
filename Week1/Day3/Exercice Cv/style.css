@@ -113,5 +113,9 @@ i {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 2fr 6fr;
     gap: 20px 90px;
+
     font-size: 10px;
+
+    /* or justify-content: space-between; */
 }
+
