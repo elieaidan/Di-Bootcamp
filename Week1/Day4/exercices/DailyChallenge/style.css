@@ -1,0 +1,48 @@
+
+*{
+
+box-sizing: border-box;
+
+}
+
+
+
+ .firstcube  {
+
+    background-color: lightgrey;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 45em;
+    
+    }
+
+.danger{ 
+padding-top: 2px;
+padding-bottom: 2px;
+
+
+
+}
+
+ .secondcube{ 
+  
+    padding-left: 5em;
+    padding-right: 5em;
+
+
+
+    }
+
+    .table  {
+
+        border: 1px solid lightgray;
+        }
+   
+
+#betrave {  
+    /* width: 200px;
+    height: 190px; */
+    width: 9em;
+ }      
+
