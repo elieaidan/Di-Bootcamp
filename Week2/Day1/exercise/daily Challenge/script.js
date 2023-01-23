@@ -35,6 +35,12 @@ const rond = red [1];
 
 console.log(rond);
 
+const orange = rond [0];
+
+console.log(orange);
+
+
+
 
 
 
