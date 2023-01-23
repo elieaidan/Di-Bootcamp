@@ -15,13 +15,14 @@ console.log(wordBad);
 
 
  if (wordNot < wordBad)  {
+
     console.log(`The movie is good, I like it`);
 
 
  } else {
 
 
-console.log(`The movie is not that bad, I like it`);
+    console.log(`The movie is not that bad, I like it`);
 
 
  }
