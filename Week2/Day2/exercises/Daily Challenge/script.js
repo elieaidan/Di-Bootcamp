@@ -14,7 +14,7 @@ console.log(wordBad);
 
 
 
- if (wordNot < wordBad)  {
+ if (wordNot < wordBad && wordNot!==-1 && wordBad!==-1)  {
 
     console.log(`The movie is good, I like it`);
 

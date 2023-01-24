@@ -35,34 +35,36 @@
 //     console.log(`01110011 01101111 01110010 01110010 01111001`);
 
 
-// }
+// // }
 
 
 // exercise 2
 
 
-const note = prompt("what is your note");
+// const note = prompt("what is your note");
 
 
- if (note > 90 )  {
+//  if (note > 90 )  {
 
-    console.log(`A`);
-
-
- }else if (note <=90 && note>80 ){
-
-    console.log(`B`);
+//     console.log(`A`);
 
 
- }else if(note >=70 && note<=80  ) {
+//  }else if (note <=90 && note>80 ){
 
-    console.log(`C`);
-
-
- }else if (note <70  )  {
-
-    console.log(`D`);
+//     console.log(`B`);
 
 
- }
+//  }else if(note >=70 && note<=80  ) {
+
+//     console.log(`C`);
+
+
+//  }else if (note <70  )  {
+
+//     console.log(`D`);
+
+
+//  }
+
+// exercise 3
 
