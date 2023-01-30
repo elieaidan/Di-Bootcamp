@@ -88,7 +88,7 @@ function addItems () {
     }
 }
 
-addItems()
+addItems();
 
 
 const itemsMore = ["chocolate", "shampoo"];

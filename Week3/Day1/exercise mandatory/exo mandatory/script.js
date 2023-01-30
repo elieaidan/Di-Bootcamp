@@ -46,6 +46,46 @@
 
 
 
+const allBooks = [] ;
+
+
+const book1 = {
+  title: "le roi lion ",
+  author:" jerem sitbon",
+  image: "jerem.jpg",
+  alreadyRead: true
+};
+
+
+const book2 = {
+  title: "la princesse ",
+  author:" jerem brafman",
+  image: "jerem.jpg",
+  alreadyRead: false
+};
+
+allBooks.push(book1,book2);
+
+console.log(allBooks);
+console.log(${book1[title]});
+
+// for ( let book of allBooks ){
+  
+ 
+
+//   const main = document.getElementById("listBooks");
+//   const newP = document.createElement("p");
+  
+//   const content = document.createTextNode(`${book[`${title}`]}`);
+//   newP.classList.add(content)
+//   main.appendChild(newP);
+// }
+  
+
+
+
+
+
 
 
 
