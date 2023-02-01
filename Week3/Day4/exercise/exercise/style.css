@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+
+
+.section1 {
+    display: grid;
+    gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    border: 0.2em black solid;
+    height: 500px;
+    width: 200px;
+    margin: 0;
+}
+
+
+#btn {
+  grid-column: 1/4;
+}
+button{
+
+    width: 200px;
+    height: 80px;
+    font-size: 22px;
+}
+
+.section2 {
+    border: 0.2em red solid;
+    display: grid;
+    grid-template-columns: repeat(60,1fr);
+    grid-template-rows: repeat(24,1fr);
+    padding: 0px;
+    background-color: white;
+    
+}
+
+.cell{
+    grid-template-columns: repeat(60,1fr);
+    display: block;
+    width: 10px;
+    height: 15px;
+    border: 1px black solid;
+    padding: 0px;
+    background-color: red;
+    
+    
+}
+
+
+
