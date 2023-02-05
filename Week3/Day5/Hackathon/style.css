@@ -1,16 +1,16 @@
 body {
+    background-color: rgba(255, 26, 26, 0.841);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
 #main{
     width: 624px;
     height: 312px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 0px auto;
-    margin-left: 100px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr); ;
-    grid-template-rows: repeat(4,1fr);;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 #main img{
@@ -18,33 +18,22 @@ body {
     height: 77px;
     border: 0.5px solid rebeccapurple;
 }
+#main div{
+    width: 155px;
+    height: 77px;
+    border: 0.5px solid rebeccapurple;
+}
+
 #secondpart{
     width: 936px;
     height: 234px;
-    border: 1px solid black;
+    border: 1px solid wheat;
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
-
-
 }
 #secondpart img{
     width: 155px;
     height: 77px;
-    border: 0.5px solid red;
-    
-
-}   
-
-.border {
-    border: 1px black solid;
-}
-
-.flex-item {
-    width: 100px;
-}
-
-
-h1 {
-    font-size: 20px;
+    border: 0.5px solid rebeccapurple;
 }
