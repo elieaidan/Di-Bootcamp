@@ -1,0 +1,39 @@
+[Math operators]
+
+    + addition
+    - substraction
+    * multiplication
+    / division
+    // floor (return the closest number on the left [5//2 => 2])
+    % modulo (return the remainer of the division)
+
+    ** power (5 ** 5 => 25)
+
+
+[conditional operators]
+
+    < less than
+    <= less or equal
+
+    > greater than
+    >= greater or equal
+
+    == equal 
+    != not equal
+
+
+[Value types]
+
+Numerical
+    Integer (<class 'int'>) - whole number (4)
+    Float (<class 'float'>) - floating number (4.4)
+
+Strings (<class 'str'>) - 
+    1. piece of text 
+        '$@#@# ijdfjew 3412334'
+    2. sequence of strings
+        'hello'[3] -> 'l'
+    
+Boolean (<class 'bool'>) 
+    True
+    False
