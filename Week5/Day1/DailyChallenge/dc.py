@@ -12,7 +12,7 @@ class Farm:
         self.name = farm_name
         self.list = {}
 
-    def add_animal(self, new_animal, amount):
+    def add_animal(self, new_animal, amount = 1):
         if new_animal not in self.list:
             self.list[new_animal] = amount     
         else:
@@ -32,7 +32,7 @@ class Farm:
     # def get_info(self):
 
 eliefarm = Farm('ElieFarm')
-eliefarm.add_animal('snake', 25)
+eliefarm.add_animal('snake  ', 25)
 eliefarm.add_animal('tutle', 25)
 eliefarm.get_animal_types()
 eliefarm.get_short_info()
