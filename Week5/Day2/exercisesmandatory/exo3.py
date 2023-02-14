@@ -12,7 +12,7 @@ class PetDog (Dog):
         return self.bark
     
     def play (self, *args):
-        print(f'{self.name} all play togethe ')
+        print(f'{self.name} all play together ')
 
 
     def do_a_trick (self, ):
