@@ -1,0 +1,23 @@
+--select * from customer;
+--select first_name || ' ' || last_name
+--as full_name from customer;
+--select distinct last_update from customer;
+--select* from customer order by first_name desc;
+--select film_id, title,description,release_year, rental_rate
+--from film order by rental_rate asc;
+--select phone, last_name, first_name, district from customer
+--inner join address
+--on customer.address_id = address.address_id where district = 'Texas';
+--select * from film where film_id between 15 and 150;
+--select film_id, title,description,rental_rate from film where title = 'Titanic';
+--select film_id, title,description,rental_rate from film where title = 'Tit%';
+--select * from film order by rental_rate asc limit 10; 
+--select * from film order by rental_rate asc offset 10 fetch first 10 rows only;
+--select customer.customer_id, customer.first_name, customer.last_name, payment.payment_date, payment.amount 
+--from customer
+--inner join payment on payment.customer_id = customer.customer_id
+--order by customer.customer_id;
+--select * from film join inventory on film.film_id = inventory.film_id where film.film_id not in (inventory.film_id);
+--select city.city, country.country from city join country on city.country_id = country.country_id ;
+
+
