@@ -1,0 +1,22 @@
+
+{% extends 'base.html'%}
+
+{%block content %}
+
+    <h1> {{category.name}} </h1>
+
+    {%for gif in gifs%}
+        <img src="{{gif.url}}">
+        <br>
+    {%endfor%}
+
+ <form method="get">
+    <button name="LIKE" value="{{gif.id}}" type="submit">LIKE</button>
+ </form>   
+    
+ <form method="get">
+    <button name="DISLIKE" value="{{gif.id}}" type="submit">DISLIKE</button>
+ </form> 
+
+
+{% endblock content %}
