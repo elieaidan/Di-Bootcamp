@@ -1,0 +1,6 @@
+- the code is clear although it is a bit repetitive, specially the write 
+function.
+- the idea is really interesting and usefull.
+- you could have added more comparisons and plots to your project.
+- overall really good project, you can make it a bit more complex though, 
+it seems a bit simple. 
