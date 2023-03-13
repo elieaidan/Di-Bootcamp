@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+body {
+  background-image: url("gris.jpg")  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* body {
+  background-image: url("marbre.jpg") !important ;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  
+} */
+
+.navbarg {
+    background-color: white;
+    padding: 17px;
+    box-shadow:3px 4px 10px 0 rgba(0,0,0,0.5);
+    font-family: 'Explora', cursive;
+    font-size: 30px;
+    padding-right: 60px;
+}
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .nav-menu li {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .nav-menu li a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.4s;
+  }
+
+  .nav-menu li a:hover {
+    color: #e67e22;
+  }
+
+
+  .play-button {
+    background-color: #D4AF37;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+  #phrasehebreu{
+    font-size: 3em;
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+
+  }
+
+
+#prenoms {
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 80px;
+    color:#D4AF37
+
+}
+
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #D4AF37;
+    font-family: 'Explora', cursive;
+
+  }
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .countdown-item span {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .countdown-item label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .countdown-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80px;
+    height: 80px; */
+    border: 1px solid #D4AF37;
+    width: 140px;
+    height: 100px;
+    border-radius: 50px;
+  }
+
+label{
+
+    font-family: 'Explora', cursive;
+ }
+
+ * {
+    box-sizing: border-box
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+  }
+  .mySlides {
+    display: none
+  }
+  img {
+    vertical-align: middle;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active,
+  .dot:hover {
+    background-color: #111111;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+.Henne{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  text-align: center;
+  
+}
+
+.Henne h2{
+  font-family: 'Parisienne', cursive;
+  font-size: 120px;
+  color:#D4AF37;
+  font-size: 70px;
+
+}
+
+#titrehenne{
+  font-family: 'Parisienne', cursive;
+  font-size: 40px;
+  color:grey;
+  
+}
+
+#para {
+  font-family: 'Parisienne', cursive;
+  font-size: 40px;
+  color:grey !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+#link{
+  color:grey; 
+}
+
+#link:hover {
+  color: black;
+  text-decoration: underline
+
+}
+
+
+#savethedate{
+ 
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+}
+
+.left-name {
+  margin-right: 50px;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  color:grey;
+}
+
+.right-name {
+  text-align: right;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  color:grey;
+}
+#PRENOMSES{
+  font-size: 1.5em;
+}
+
+.names p {
+  margin: 0;
+  
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  
+
+}
+
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+ 
+
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+  
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* styles pour les iPhones en mode portrait */
+@media only screen and (max-width: 414px) {
+  /* réduire la taille du logo */
+  .logo img {
+    max-width: 80px;
+  }
+  
+  /* cacher le texte de navigation */
+  .menu ul {
+    display: none;
+  }
+  
+  /* afficher le menu icône */
+  .menu-icon {
+    display: block;
+  }
+  
+  /* ajouter un style pour le menu déroulant */
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+  
+  .menu-icon i {
+    color: #fff;
+  }
+  
+  /* afficher le menu déroulant */
+  .menu-icon:hover + .menu ul {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  
+  .menu li {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .menu li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #eee;
+  }
+}
+
+.list-inline{
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .countdown-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .countdown-item {
+    /* flex: 0 0 50%; */
+    text-align: center;
+  }
+  .countdown-item:first-child {
+    margin-bottom: 10px;
+  }
+  #link {
+    font-size: 18px;
+  }
+ 
+  #para {
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .RSVP h1{
+    font-size: 45px;
+  }
+
+  .RSVP input{
+    padding: 5px;
+  }
+  .footer-basic {
+    padding: 7px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+ }
+ #prenoms {
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 62px;
+  color: #D4AF37;
+}
+.Henne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+  text-align: center;
+}
+#titrehenne {
+  font-family: 'Parisienne', cursive;
+  font-size: 40px;
+  color: grey;
+}
+.play-button {
+  background-color: #D4AF37;
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.names p {
+  font-size: 13px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+  .left-name, .right-name {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #PRENOMSES {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .centered-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #phrasehebreu {
+  font-size: 2em;
+  }
+  }
+
+
+ 
