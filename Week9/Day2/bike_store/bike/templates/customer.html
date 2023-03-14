@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{%block content%}
+    <h1> {{customer.first_name}}  {{customer.last_name}}</h1>
+    <hr>
+    <h2> Address: {{customer.address}} </h2>
+    <h2> Email: {{customer.email}} </h2>
+    <h2> Phone: {{customer.phone_number}} </h2>
+    {%if customer.country%}
+    <h2> Country: {{customer.country}} </h2>
+    {%endif%}
+    <hr>
+    <h1> Rentals: </h1>
+{%endblock%}

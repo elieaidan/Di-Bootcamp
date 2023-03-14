@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{%block content%}
+{%for film in films_list%}
+ {{film.title}}, {{film.release_date}}, {{film.director}}
+{%endfor%}
+{%endblock%}
